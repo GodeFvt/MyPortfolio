@@ -1,0 +1,82 @@
+.conteiner-about{
+    max-width: 1700px;
+    margin: 5em auto;
+}
+fieldset{
+    position: relative;
+    display: flex;
+    margin: 2em auto;
+    width: 50%;
+}
+
+fieldset>legend{
+    text-align: center;
+    padding: 0 1rem;
+    margin-bottom: 0.5em;
+    font-size: 50px;
+    font-weight: 100;
+    line-height: 25px;
+    color: white;
+    text-shadow: #fff 0.05em 0.05em 0.2em;
+}
+
+.profile-area {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.profile-item1 {
+    margin: 0 ;
+}
+
+.profile-item2 {
+    margin: 0 ;
+}
+
+.profile-item-img img {
+    width: 100%;
+    box-shadow: 0 0 10px #333;
+    border-radius: 10px;
+    border-bottom: #fff solid ;
+}
+.inport-item-text{
+    width: 100%;
+    margin: auto;
+}
+.profile-item-text p {
+    text-indent: 2em;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 25px;
+    color: #fff;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.profile-item-text a{
+    color: #E63946;
+    font-size: 20px;
+    text-decoration: none;
+}
+.profile-item-text a:hover{
+    color: #fff;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .profile-area {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .profile-item1 {
+        width: auto;
+        margin: 0 2em;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .profile-item-text p{
+        font-size: 15px;
+    }
+
+}

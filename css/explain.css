@@ -1,0 +1,81 @@
+.conteiner-explain{
+    max-width: 1700px;
+    margin: 5em auto;
+    display: grid;
+}
+fieldset{
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 2em auto;
+    width: 80%;
+}
+
+fieldset>legend{
+    text-align: center;
+    padding: 0 1rem;
+    margin-bottom: 0.5em;
+    font-size: 50px;
+    font-weight: 100;
+    line-height: 50px;
+    color: white;
+    text-shadow: #fff 0.05em 0.05em 0.2em;
+}
+
+.explain-item1 {
+    margin: 1em 2em;
+}
+
+.explain-item2 {
+    margin: 1em 2em;
+}
+  
+.explain-item-img img {
+    width: 100%;
+    box-shadow: 0 0 10px #333;
+    border-radius: 10px;
+    border-bottom: #fff solid ;
+}
+
+.explain-item-text{
+    width: 100%;
+    margin: auto;
+}
+.explain-item-text p {
+    text-indent: 2em;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 25px;
+    color: #fff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.explain-item-text a{
+    color: #E63946;
+    font-size: 20px;
+    text-decoration: none;
+}
+.explain-item-text a:hover{
+    color: #fff;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 473px) {
+    fieldset {
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .explain-item1 {
+        width: auto;
+        margin: 0 2em;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .explain-item-text p{
+        font-size: 15px;
+    }
+
+}
